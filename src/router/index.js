@@ -9,7 +9,7 @@ const router = createRouter({
       component: () => import('../views/userboard/UserView.vue'),
       children: [
         {
-          path: 'index',
+          path: '/',
           name: 'index',
           component: () => import('../views/userboard/UserIndexView.vue')
         },

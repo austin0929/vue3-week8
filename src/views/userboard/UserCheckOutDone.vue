@@ -25,7 +25,7 @@
             優秀的產品品質是我們的責任，<br />希望能帶給更多顧客的良好體驗。
           </p>
           <router-link
-            to="/index"
+            to="/"
             class="btn btn-dark rounded mt-3 btn-lg btn-primary-hover border-0"
             >回首頁</router-link
           >

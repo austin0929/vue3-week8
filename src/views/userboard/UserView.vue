@@ -2,7 +2,7 @@
   <div class="container">
     <div class="bg-primary fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light container px-3 px-0">
-      <router-link to="/index" class="navbar-brand text-light fw-bold">DavidShoes</router-link>
+      <router-link to="/" class="navbar-brand text-light fw-bold">DavidShoes</router-link>
       <button
         class="navbar-toggler bg-light"
         type="button"
@@ -52,7 +52,7 @@
       <div
         class="d-flex align-items-center justify-content-between text-white mb-md-7 mb-4"
       >
-        <router-link class="text-white h4" to="/index">DavidShoes</router-link>
+        <router-link class="text-white h4" to="/">DavidShoes</router-link>
         <ul class="d-flex list-unstyled mb-0 h4">
           <li>
             <a href="#" class="text-white mx-3" @click.prevent

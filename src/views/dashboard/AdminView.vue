@@ -44,7 +44,7 @@ export default {
       this.$http.post(api).then((res) => {
         if (res.data.success) {
            document.cookie = "vuetoken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-          this.$router.push("/index");
+          this.$router.push("/");
         }
       });
     },
